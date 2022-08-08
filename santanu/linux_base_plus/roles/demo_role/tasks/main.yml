@@ -1,0 +1,5 @@
+---
+- name: Enable selinux
+  selinux:
+    policy: targeted
+    state: "{{ selinux_mode }}"
