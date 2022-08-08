@@ -1,0 +1,16 @@
+---
+collections:
+  #- name: /var/tmp/santanu-linux_base_plus-1.0.0.tar.gz
+  #  type: file
+
+  # directory containing the collections
+  #- source: /root/mygithub/ansible/ansible_collections/santanu/linux_base_plus/
+  #  type: dir
+
+  # directory containing a namespace, with collections as subdirectories
+  #- source: /root/mygithub/ansible/ansible_collection/santanu/linux_base_plus/
+  #  type: subdirs
+
+  - name: git@github.com:santanu-c/ansible.git
+    type: git
+    version: main

@@ -1,0 +1,10 @@
+---
+## end user request: install uzip
+- hosts: all
+  gather_facts: true
+  become: true
+  become_user: root
+  tasks:
+    - package:
+        name: unzip
+      when: ansible_os_family == "CentOS"
