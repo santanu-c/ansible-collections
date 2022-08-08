@@ -11,6 +11,6 @@ collections:
   #- source: /root/mygithub/ansible/ansible_collection/santanu/linux_base_plus/
   #  type: subdirs
 
-  - name: git@github.com:santanu-c/ansible.git
+  - name: git@github.com:santanu-c/ansible-collections.git
     type: git
     version: main
