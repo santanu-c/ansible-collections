@@ -12,5 +12,6 @@ collections:
   #  type: subdirs
 
   - name: git@github.com:santanu-c/ansible-collections.git
+    source: https://github.com/santanu-c/ansible-collections.git
     type: git
-    version: main
+    #version: main
